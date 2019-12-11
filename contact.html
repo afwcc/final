@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MAD9013 - Week12</title>
+    <!-- We are linking to the Bootstrap4 css library via CDN (content delivery network) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Make sure to link your own stylesheets AFTER the Bootstrap CDN link -->
+    <link href="css/home.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="container-fluid ">
+        <ul class="nav nav-pills nav-fill bg-light">
+            <li class="nav-item">
+                <a class="nav-link" href="home.html">home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html">profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="container-fluid">
+      <div class="jumbotron">
+          <img class='pic' src='img/152-200x200.jpg' alt='avatar' style="width: 200px;">
+          <p class="display-3">Contact for Hiring</p> 
+      </div>
+        <main> 
+                <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-4">
+                            <label class="input" for="inputfName4">First Name</label>
+                            <input type="firstname" class="form-control" id="inputfName4" placeholder="First Name">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label class="input" for="inputlName4">Last Name</label>
+                            <input type="lastname" class="form-control" id="inputlName4" placeholder="Last Name">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label class="input" for="inputNumber4"> Phone Number</label>
+                            <input type="phonenumber" class="form-control" id="inputPhoneNumber4" placeholder="Phone Number">
+                          </div>
+                        </div>
+                    
+
+                          <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label class="input" for="disabledSelect">Country</label>
+                            <select id="disabledSelect" class="form-control">
+                              <option>Canada</option>
+                              <option>Other</option>
+                            </select>
+                          </div>
+                    
+                          <div class="form-group col-md-6">
+                            <label class="input" for="disabledSelect">Most available Time</label>
+                            <select id="disabledSelect" class="form-control">
+                              <option>Monday</option>
+                              <option>Tuesday</option>
+                              <option>Wednesday</option>
+                              <option>Thursday</option>
+                              <option>Friday</option>
+                              <option>Saturday</option>
+                              <option>Sunday</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label class="input" for="exampleFormControlTextarea1">Job Details</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Please provide details of the job."></textarea>
+                        </div>
+                        <div class ="button-div">
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                      </form>
+
+        
+    </main>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

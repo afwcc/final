@@ -1,0 +1,52 @@
+$blue:hsl(223, 49%, 50%);
+$yellow:yellow;
+$pixel30:30px;
+$pixel20:20px;
+$height:40vh;
+$sheight:20vh;
+$burlywood:burlywood;
+$black:black;
+
+.jumbotron{
+    height: $height;
+  }
+
+body{
+    background-color:$blue;
+  }
+img {
+    border-radius: 50%;
+    height: $sheight ;
+  }
+
+#unorderlist{
+    font-size: $pixel20;
+    color: $black;
+  }
+.pic{
+    float: right;
+  }
+
+.list{
+    font-size: 35px;
+    color: $yellow;
+  }
+.headerp{
+    font-size: $pixel30x;
+    
+  }
+#js{
+    float: left;
+  }
+
+.link{
+    color: $yellow;
+    font-size: 25px;
+  
+  }
+
+.jumbotron{
+    background-color:$burlywood;
+  }
+
+  
